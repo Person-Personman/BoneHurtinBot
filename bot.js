@@ -33,7 +33,7 @@ bot.on('messageCreate', (msg) => {
     if(str.indexOf("gay") !== -1) {
         bot.createMessage(msg.channel.id, 'no nigga you gay - @Ian');
     }
-    if(str.indexOf("lube") !== -1 && (str.indexOf("fish" == -1) || (str.indexOf("ｆｉｓｈ") == -1)) { {
+    if(str.indexOf("lube") !== -1) {
         bot.createMessage(msg.channel.id, 'make that ｆｉｓｈ ｌｕｂｅ');
     }
     if(str.indexOf("fish lube" || "ｆｉｓｈ ｌｕｂｅ") !== -1) {
@@ -41,4 +41,4 @@ bot.on('messageCreate', (msg) => {
     }
 });
  
-bot.connect();      
+bot.connect(); 
