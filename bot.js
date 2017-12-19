@@ -10,13 +10,13 @@ bot.on('messageCreate', (msg) => {
     res = msg.content;
     str = res.toLowerCase();
     if(str.indexOf("bone hurting juice") !== -1) {
-        bot.createMessage(msg.channel.id, 'oof owie my bones');
+        bot.createMessage(msg.channel.id, 'oof ouch owie mah bones');
     }
     if(str.indexOf(":bhj:") !== -1) {
         bot.createMessage(msg.channel.id, 'bottoms up!');
     }
     if(str.indexOf("oof") !== -1) {
-        bot.createMessage(msg.channel.id, 'owie');
+        bot.createMessage(msg.channel.id, 'ouch');
     }
     if(str.indexOf("ouch") !== -1) {
         bot.createMessage(msg.channel.id, 'owie');
@@ -33,7 +33,7 @@ bot.on('messageCreate', (msg) => {
     if(str.indexOf("lube") !== -1) {
         bot.createMessage(msg.channel.id, 'make that ｆｉｓｈ ｌｕｂｅ');
     }
-    if(str.indexOf("fish lube" || "ｆｉｓｈ ｌｕｂｅ") !== -1) {
+    if(str.indexOf("fish lube") !== -1) {
         bot.createMessage(msg.channel.id, 'ｏｈ ｙｅａｈ ｍｏｒｅ ｆｉｓｈ ｌｕｂｅ ｏｈｈｈｈ ｙｅｅｅａａａｈｈｈ');
     }
 });
