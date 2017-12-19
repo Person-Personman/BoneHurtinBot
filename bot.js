@@ -29,7 +29,7 @@ bot.on('messageCreate', (msg) => {
     if(str.indexOf("plox") !== -1) {
         bot.createMessage(msg.channel.id, 'ＧＥＴ ＯＵＴ');
     }
-    if(str.indexOf("lube") !== -1) {
+    if(str.indexOf("lube") !== -1 && str.indexOf("fish lube") == -1) {
         bot.createMessage(msg.channel.id, 'ｍａｋｅ ｔｈａｔ ｆｉｓｈ ｌｕｂｅ');
     }
     if(str.indexOf("fish lube") !== -1) {
