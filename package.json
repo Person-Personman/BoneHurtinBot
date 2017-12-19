@@ -1,0 +1,11 @@
+{
+  "name": "BoneHurtingBot",
+ "version": "1.0.0",
+ "description": "oof owie my bones",
+ "main": "bot.js", "scripts": {
+  "start": "node bot.js" },
+ "author": "PersonPersonman",
+  "dependencies": {
+    "eris": "^0.7.2"
+  }
+}
