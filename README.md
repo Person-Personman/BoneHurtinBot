@@ -9,7 +9,7 @@ To start using BoneHurtinBot V1 (begone th0t edition):
 4. Open cmd/terminal
 5. Type 'node bot.js'
 
-OR...
+<b>OR...</b>
 
 Follow instructions at https://www.github.com/Person-Personman/BoneHurtinBot/tree/private/
 
