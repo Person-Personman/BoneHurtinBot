@@ -9,6 +9,10 @@ To start using BoneHurtinBot V1 (begone th0t edition):
 4. Open cmd/terminal
 5. Type 'node bot.js'
 
+OR...
+
+Follow instructions at github.com/Person-Personman/BoneHurtinBot/tree/private
+
 # Commands
 bone hurting juice - oof ouch owie my bones
 
