@@ -1,3 +1,4 @@
+
 const Eris = require('eris');
  
 const bot = new Eris('MzY3MTMyNDQwNTE2NjI0NDA1.DL2-QQ.E6fTcN8MjEKQIByqbOIWAOTla_c');
@@ -30,6 +31,15 @@ bot.on('messageCreate', (msg) => {
     if(str.indexOf("plox") !== -1) {
         bot.createMessage(msg.channel.id, 'GET OUT');
     }
+    if(str.indexOf("gay") !== -1) {
+        bot.createMessage(msg.channel.id, 'no nigga you gay - @Ian');
+    }
+    if(str.indexOf("lube") !== -1) {
+        bot.createMessage(msg.channel.id, 'make that ｆｉｓｈ ｌｕｂｅ');
+    }
+    if(str.indexOf("fish lube" || "ｆｉｓｈ ｌｕｂｅ") !== -1) {
+        bot.createMessage(msg.channel.id, 'ｏｈ ｙｅａｈ ｍｏｒｅ ｆｉｓｈ ｌｕｂｅ ｏｈｈｈｈ ｙｅｅｅａａａｈｈｈ');
+    }
 });
  
-bot.connect();      
+bot.connect();
