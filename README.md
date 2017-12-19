@@ -11,7 +11,11 @@ To start using BoneHurtinBot V1 (begone th0t edition):
 
 # Commands
 bone hurting juice - oof ouch owie my bones
+
 :bhj: - bottoms up
+
 oof - ouch owie my bones
+
 ouch - owie my bones
+
 owie - my bones
