@@ -7,35 +7,35 @@ bot.on('ready', () => {
 });
  
 bot.on('messageCreate', (msg) => {
-    res = msg.content;
-    str = res.toLowerCase();
+    str = msg.content.toLowerCase();
     if(str.indexOf("bone hurting juice" && msg.member.bot !== false) !== -1) {
-        bot.createMessage(msg.channel.id, 'oof ouch owie mah bones');
+        bot.createMessage(msg.channel.id, 'ｏｏｆ ｏｕｃｈ ｏｗｉｅ ｍａｈ ｂｏｎｅｓ');
     }
-    if(str.indexOf(":bhj:" && msg.member.bot !== false) !== -1) {
-        bot.createMessage(msg.channel.id, 'bottoms up!');
+    if(str.indexOf(":bhj:") !== -1) {
+        bot.createMessage(msg.channel.id, 'ｂｏｔｔｏｍｓ ｕｐ！');
     }
-    if(str.indexOf("oof" && msg.member.bot !== false) !== -1) {
-        bot.createMessage(msg.channel.id, 'ouch owie mah bones');
+    if(str.indexOf("oof") !== -1) {
+        bot.createMessage(msg.channel.id, 'ｏｕｃｈ ｏｗｉｅ ｍａｈ ｂｏｎｅｓ');
     }
-    if(str.indexOf("ouch" && msg.member.bot !== false) !== -1) {
-        bot.createMessage(msg.channel.id, 'owie mah bones');
+    if(str.indexOf("ouch") !== -1) {
+        bot.createMessage(msg.channel.id, 'ｏｗｉｅ ｍａｈ ｂｏｎｅｓ');
     }
-    if(str.indexOf("owie" && msg.member.bot !== false) !== -1) {
-        bot.createMessage(msg.channel.id, 'mah bones');
+    if(str.indexOf("owie") !== -1) {
+        bot.createMessage(msg.channel.id, 'ｍａｈ ｂｏｎｅｓ');
     }
-    if(str.indexOf("pl0x" && msg.member.bot !== false) !== -1) {
-        bot.createMessage(msg.channel.id, 'GET OUT');
+    if(str.indexOf("pl0x") !== -1) {
+        bot.createMessage(msg.channel.id, 'ＧＥＴ ＯＵＴ');
     }
-    if(str.indexOf("plox" && msg.member.bot !== false) !== -1) {
-        bot.createMessage(msg.channel.id, 'GET OUT');
+    if(str.indexOf("plox") !== -1) {
+        bot.createMessage(msg.channel.id, 'ＧＥＴ ＯＵＴ');
     }
-    if(str.indexOf("lube" && msg.member.bot !== false) !== -1) {
-        bot.createMessage(msg.channel.id, 'make that ｆｉｓｈ ｌｕｂｅ');
+    if(str.indexOf("lube") !== -1) {
+        bot.createMessage(msg.channel.id, 'ｍａｋｅ ｔｈａｔ ｆｉｓｈ ｌｕｂｅ');
     }
-    if(str.indexOf("fish lube" && msg.member.bot !== false) !== -1) {
+    if(str.indexOf("fish lube") !== -1) {
         bot.createMessage(msg.channel.id, 'ｏｈ ｙｅａｈ ｍｏｒｅ ｆｉｓｈ ｌｕｂｅ ｏｈｈｈｈ ｙｅｅｅａａａｈｈｈ');
     }
 });
+
  
 bot.connect(); 
