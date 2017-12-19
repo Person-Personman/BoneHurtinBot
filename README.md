@@ -16,3 +16,11 @@ oof - ouch owie my bones
 ouch - owie my bones
 
 owie - my bones
+
+gay - no nigga you gay - @Ian
+
+lube - make that ｆｉｓｈ ｌｕｂｅ
+
+fish lube - ｏｈ ｙｅａｈ ｍｏｒｅ ｆｉｓｈ ｌｕｂｅ ｏｈｈｈｈ ｙｅｅｅａａａｈｈｈ
+
+ｆｉｓｈ ｌｕｂｅ - ｏｈ ｙｅａｈ ｍｏｒｅ ｆｉｓｈ ｌｕｂｅ ｏｈｈｈｈ ｙｅｅｅａａａｈｈｈ
